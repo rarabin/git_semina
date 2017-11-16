@@ -3,6 +3,14 @@ using namespace std;
 
 
 int main() {
-	cout << "학번 : 2017104031 이름 : 채수빈" << endl;
+	for (int i = 0; i < 5; i++) 
+	{
+		for (int i = 0; i < 5; i++) 
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+
 	return 0;
 }
